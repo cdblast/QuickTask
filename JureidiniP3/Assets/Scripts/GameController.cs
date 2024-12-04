@@ -8,7 +8,7 @@ using UnityEngine.SocialPlatforms.Impl;
 public class GameController : MonoBehaviour
 {
     public GameObject endGameText;
-    public float gameOver;
+    public bool gameOver;
 
     // Start is called before the first frame update
     void Start()
